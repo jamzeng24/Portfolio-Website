@@ -33,7 +33,7 @@ const user = {
     {
       name: 'Portfolio Website',
       url: '',
-      github: '',
+      github: 'https://github.com/jamzeng24/Portfolio-Website',
       description: 'My personal website that I designed and built using Next.js and Bulma. This project made me realize how important it is to determine the tech stack before getting started on a project, as Next.js proved to be overkill for just a static website.',
       tags: ['React', 'Next', 'HTML', 'CSS', 'Bulma']
     },
