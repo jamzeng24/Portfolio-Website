@@ -18,3 +18,7 @@ npm run start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Deployment
+
+This application is deployed at [https://portfolio-website-9u05sscxz-jamzeng24.vercel.app](https://portfolio-website-9u05sscxz-jamzeng24.vercel.app).
