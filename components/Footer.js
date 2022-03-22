@@ -14,7 +14,7 @@ export default function Footer() {
               and
               <a className='mx-1' href='https://bulma.io' target='_blank' rel='noreferrer'>
                 <Image src='/made-with-bulma.png' alt='Made with Bulma' width={128} height={24}/>
-            </a>
+              </a>
             </div>
             <div className='bottom has-text-centered'>
               Developed by James Zeng

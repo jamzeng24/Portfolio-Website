@@ -2,8 +2,8 @@ const user = {
   name: 'James Zeng',
   title: 'Software Engineer',
   github: 'https://github.com/jamzeng24',
-  hero: 'A driven, detail-oriented Full Stack Software Engineer, Computer Science Enthusiast and Tutor, or just a regular programmer with an interest for creating beautiful systems.',
-  now: ['Currently, I\'m focused on tutoring', 'students.'],
+  hero: 'A driven, detail-oriented Software Engineer, Computer Science Enthusiast and Tutor, or just a regular programmer with an interest for creating beautiful systems.',
+  now: ['Currently, I\'m focused on tutoring', 'students and finding a job!'],
   odin: {
     name: 'The Odin Project',
     url: 'https://theodinproject.com'
@@ -26,10 +26,17 @@ const user = {
   ],
   skills: {
     languages: ['Python', 'Ruby', 'Javascript (ES6+)', 'HTML', 'CSS/Sass', 'C++', 'Java', 'SQL'],
-    frameworks: ['Node', 'Express', 'React', 'Next.js', 'Bulma', 'Ruby on Rails'],
+    frameworks: ['Node', 'Express', 'React', 'Next.js', 'Gatsby.js', 'Bulma', 'Ruby on Rails'],
     tools: ['Postman', 'Visual Studio Code', 'Git (GitHub)', 'Unix shell (bash/zsh)', 'MongoDB Atlas', 'Amazon Web Services']
   },
   projects: [
+    {
+      name: 'Fusion Delight',
+      url: 'https://fusiondelight.gatsbyjs.io',
+      github: 'https://github.com/jamzeng24/Fusion-Delight',
+      description: 'A restaurant website I made based on the guidelines given to me by my employer and built using Gatsby.js and Bulma. This project was my first dive into Gatsby.js and i18n websites to experiment with new frameworks and technologies.',
+      tags: ['React', 'Gatsby', 'HTML', 'SCSS', 'Bulma']
+    },
     {
       name: 'Portfolio Website',
       url: 'https://portfolio-website-jamzeng24.vercel.app',
@@ -56,7 +63,7 @@ const user = {
     {
       company: 'Self-Employed',
       title: 'Computer Science Tutor',
-      time: 'November 2021 - Present',
+      time: 'November 2021 - February 2022',
       description: 'Reviewed computer science and programming concepts with coding bootcamp students.'
     },
     {
