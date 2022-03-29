@@ -22,3 +22,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Deployment
 
 This application is deployed at [https://portfolio-website-jamzeng24.vercel.app](https://portfolio-website-jamzeng24.vercel.app).
+
+## TODOS
+
+- Dark mode (or a less bright option)
+- Element visibility animation (for a more modern, 'fresh' feel)

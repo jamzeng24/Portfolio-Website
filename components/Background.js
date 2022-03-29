@@ -8,14 +8,14 @@ export default function Background(props) {
     <div className='content'>
       <div className='block'>
         {user.background[0]}
-        <a className='has-text-info' href={user.odin.url} target='_blank' rel='noreferrer'>{user.odin.name}</a>
+        <a className='has-text-link has-text-weight-medium' href={user.odin.url} target='_blank' rel='noreferrer'>{user.odin.name}</a>
         {' and '}
-        <a className='has-text-info' href={user.app.url} target='_blank' rel='noreferrer'>{user.app.name}</a>
+        <a className='has-text-link has-text-weight-medium' href={user.app.url} target='_blank' rel='noreferrer'>{user.app.name}</a>
         {'.'}
       </div>
       <div className='block'>
         {user.background[1]}
-        <a className='has-text-info' href={user.school.url} target='_blank' rel='noreferrer'>{user.school.name}</a>
+        <a className='has-text-link has-text-weight-medium' href={user.school.url} target='_blank' rel='noreferrer'>{user.school.name}</a>
         {user.background[2]}
       </div>
       <div className='block'>

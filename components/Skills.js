@@ -2,7 +2,7 @@ export default function Skills(props) {
   const skills = props.skills
 
   return (
-    <div className='columns'>
+    <div className='columns is-mobile'>
       {
         Object.keys(skills).map(skill => (
           <div key={skill} className='column'>

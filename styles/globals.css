@@ -14,13 +14,50 @@ a {
     position: relative;
 }
 
-a.navbar-item {
+button.navbar-item, a.navbar-item {
     transition: transform 0.5s;
 }
 
-a.navbar-item:hover {
+button.navbar-item:hover, a.navbar-item:hover {
     transform: translateY(-5px);
     color: inherit;
+}
+
+.scroll-link::before {
+    content: '';
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    width: 0;
+    height: 2px;
+    transition: width 0.3s; 
+}
+
+.about::before {
+    background-color: red;
+}
+
+.skills::before {
+    background-color: #216e8d;
+}
+
+.projects::before {
+    background-color: darkgreen;
+}
+
+.experience::before {
+    background-color: #5cb5ae;
+}
+
+.contact::before {
+    background-color: orange;
+}
+
+@media all and (min-width: 1024px) {
+    .about:hover::before, .skills:hover::before, .projects:hover::before, .experience:hover::before, .contact:hover::before {
+        left: 0;
+        width: 100%;
+    }
 }
 
 .email-link::before {
@@ -49,68 +86,6 @@ a.navbar-item:hover {
 
 .odin:hover {
     background-size: 6px 100%;
-}
-
-@media all and (min-width: 1024px) {
-    .about-link::before {
-        content: '';
-        position: absolute;
-        bottom: 20px;
-        right: 0;
-        width: 0;
-        background-color: red;
-        height: 2px;
-        transition: width 0.3s;
-    }
-    
-    .skills-link::before {
-        content: '';
-        position: absolute;
-        bottom: 20px;
-        right: 0;
-        width: 0;
-        background-color: #216e8d;
-        height: 2px;
-        transition: width 0.3s;
-    }
-    
-    .projects-link::before {
-        content: '';
-        position: absolute;
-        bottom: 20px;
-        right: 0;
-        width: 0;
-        background-color: darkgreen;
-        height: 2px;
-        transition: width 0.3s;
-    }
-    
-    .experience-link::before {
-        content: '';
-        position: absolute;
-        bottom: 20px;
-        right: 0;
-        width: 0;
-        background-color: #5cb5ae;
-        height: 2px;
-        transition: width 0.3s;
-    }
-    
-    .contact-link::before {
-        content: '';
-        position: absolute;
-        bottom: 20px;
-        right: 0;
-        width: 0;
-        background-color: orange;
-        height: 2px;
-        transition: width 0.3s;
-    }
-    
-    .about-link:hover::before, .skills-link:hover::before, .projects-link:hover::before, .experience-link:hover::before, .contact-link:hover::before {
-        left: 0;
-        width: 100%;
-    }
 }
 
 .arrow {

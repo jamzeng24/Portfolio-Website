@@ -38,11 +38,11 @@ export default function Navbar(props) {
           <div id='burger'
             className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
             <div className='navbar-end'>
-              <a className='mx-1 about-link navbar-item' onClick={handleClick}>About</a>
-              <a className='mx-1 skills-link navbar-item' onClick={handleClick}>Skills</a>
-              <a className='mx-1 projects-link navbar-item' onClick={handleClick}>Projects</a>
-              <a className='mx-1 experience-link navbar-item' onClick={handleClick}>Experience</a>
-              <a className='mx-1 contact-link navbar-item' onClick={handleClick}>Contact</a>
+              <button className='mx-1 scroll-link about navbar-item' onClick={handleClick}>About</button>
+              <button className='mx-1 scroll-link skills navbar-item' onClick={handleClick}>Skills</button>
+              <button className='mx-1 scroll-link projects navbar-item' onClick={handleClick}>Projects</button>
+              <button className='mx-1 scroll-link experience navbar-item' onClick={handleClick}>Experience</button>
+              <button className='mx-1 scroll-link contact navbar-item' onClick={handleClick}>Contact</button>
               <a className='navbar-item' href={props.github} target='_blank' rel='noreferrer'>
                 <FontAwesomeIcon className='is-size-5' icon={faGithub} />
               </a>

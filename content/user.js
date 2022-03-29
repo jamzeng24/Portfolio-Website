@@ -25,16 +25,16 @@ const user = {
     'I enjoy building technology that directly benefits everyday life, but, in particular, to bridge the gap and demystify the role that programming is not impactful to those who aren\'t in software development circles. To make it accessible and inclusive to everyone.'
   ],
   skills: {
-    languages: ['Python', 'Ruby', 'Javascript (ES6+)', 'HTML', 'CSS/Sass', 'C++', 'Java', 'SQL'],
+    languages: ['Python', 'Ruby', 'Javascript (ES6+)', 'HTML', 'CSS/SCSS', 'C++', 'Java', 'SQL'],
     frameworks: ['Node', 'Express', 'React', 'Next.js', 'Gatsby.js', 'Bulma', 'Ruby on Rails'],
     tools: ['Postman', 'Visual Studio Code', 'Git (GitHub)', 'Unix shell (bash/zsh)', 'MongoDB Atlas', 'Amazon Web Services']
   },
   projects: [
     {
       name: 'Fusion Delight',
-      url: 'https://fusiondelight.gatsbyjs.io',
+      url: 'https://fusiondelightsl.com',
       github: 'https://github.com/jamzeng24/Fusion-Delight',
-      description: 'A restaurant website I made based on the guidelines given to me by my employer and built using Gatsby.js and Bulma. This project was my first dive into Gatsby.js and i18n websites to experiment with new frameworks and technologies.',
+      description: 'A website I made for a restaurant based on the guidelines given to me by my employer and built using Gatsby.js and Bulma. This project was my first dive into Gatsby.js and SEO-friendly websites actually deployed for web traffic.',
       tags: ['React', 'Gatsby', 'HTML', 'SCSS', 'Bulma']
     },
     {
@@ -46,14 +46,12 @@ const user = {
     },
     {
       name: 'Speak Easy',
-      url: '',
       github: 'https://github.com/jamzeng24/Speak-Easy',
       description: 'A web application for public speaking which allows users to host rooms to hold public speaking events in and have other users join them to listen and critique them. I worked on back-end API, user feedback, and active documentation on project flow.',
       tags: ['Firebase', 'Express', 'React', 'Node', 'GitHub']
     },
     {
       name: 'NBA Shot Predictor',
-      url: '',
       github: 'https://github.com/jamzeng24/NBA-Shot-Predictor',
       description: 'A data analysis machine learning experiment that theorizes whether or not a basketball shot outcome can be determined with a good regression model using data from the 2014-2015 NBA season.',
       tags: ['Python', 'pandas', 'sklearn']
