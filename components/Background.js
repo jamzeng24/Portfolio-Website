@@ -11,15 +11,15 @@ export default function Background(props) {
         <a className='has-text-link has-text-weight-medium' href={user.odin.url} target='_blank' rel='noreferrer'>{user.odin.name}</a>
         {' and '}
         <a className='has-text-link has-text-weight-medium' href={user.app.url} target='_blank' rel='noreferrer'>{user.app.name}</a>
-        {'.'}
+        {'. ' + user.background[1]}
       </div>
       <div className='block'>
-        {user.background[1]}
-        <a className='has-text-link has-text-weight-medium' href={user.school.url} target='_blank' rel='noreferrer'>{user.school.name}</a>
         {user.background[2]}
+        <a className='has-text-link has-text-weight-medium' href={user.school.url} target='_blank' rel='noreferrer'>{user.school.name}</a>
+        {user.background[3]}
       </div>
       <div className='block'>
-        {user.background[3]}
+        {user.background[4]}
       </div>
       <div className='block'>
         <a className='resume-link is-size-5' href='/resume.pdf' target='_blank'>
