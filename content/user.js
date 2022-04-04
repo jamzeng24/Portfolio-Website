@@ -19,15 +19,16 @@ const user = {
   email: 'jamzeng24@gmail.com',
   location: 'San Leandro, San Francisco Bay Area, California',
   background: [
-    'Hello! My name is James and I\'m currently a Computer Science Tutor for anyone who is interested in all things programming, primarily those who are enrolled or interested in coding bootcamps such as ',
-    'I started doing this because it allows me to refamiliarize myself with computer concepts from previously graduating with a bachelor\'s degree in computer science from ',
+    'Hello! My name is James and I currently tutor computer science for anyone who is interested in all things programming, primarily those who are enrolled or interested in coding bootcamps such as ',
+    'I previously worked primarily in quality assurance for a company that manages a restaurant franchise with over 40 stores in California.',
+    'I started tutoring because it allows me to refamiliarize myself with concepts from previously graduating with a Bachelor of Science in computer science from ',
     ' in July 2019 and pursue my passion to work in the software industry.',
-    'I enjoy building technology that directly benefits everyday life, but, in particular, to bridge the gap and demystify the role that programming is not impactful to those who aren\'t in software development circles. To make it accessible and inclusive to everyone.'
+    'I enjoy building technology that directly benefits everyday life, but, in particular, to consume technical knowledge and personalize it. To make it accessible, inclusive, and compatible to everyone.'
   ],
   skills: {
     languages: ['Python', 'Ruby', 'Javascript (ES6+)', 'HTML', 'CSS/SCSS', 'C++', 'Java', 'SQL'],
-    frameworks: ['Node', 'Express', 'React', 'Next.js', 'Gatsby.js', 'Bulma', 'Ruby on Rails'],
-    tools: ['Postman', 'Visual Studio Code', 'Git (GitHub)', 'Unix shell (bash/zsh)', 'MongoDB Atlas', 'Amazon Web Services']
+    frameworks: ['Node', 'Express', 'React', 'Next.js', 'Gatsby.js', 'Ruby on Rails', 'Bulma'],
+    tools: ['Postman', 'Visual Studio Code', 'Git (GitHub)', 'Unix shell (bash/zsh)', 'Docker', 'Kubernetes', 'MongoDB Atlas']
   },
   projects: [
     {
@@ -41,7 +42,7 @@ const user = {
       name: 'Portfolio Website',
       url: 'https://portfolio-website-jamzeng24.vercel.app',
       github: 'https://github.com/jamzeng24/Portfolio-Website',
-      description: 'My personal website that I designed and built using Next.js and Bulma. This project made me realize how important it is to determine the tech stack before getting started on a project, as Next.js proved to be overkill for just a static website.',
+      description: 'The first portfolio website that I built and designed using Next.js and Bulma. This project made me realize how important it is to determine the tech stack before getting started on a project, as Next.js proved to be excessive for just a static website.',
       tags: ['React', 'Next', 'HTML', 'CSS', 'Bulma']
     },
     {
@@ -53,7 +54,7 @@ const user = {
     {
       name: 'NBA Shot Predictor',
       github: 'https://github.com/jamzeng24/NBA-Shot-Predictor',
-      description: 'A data analysis machine learning experiment that theorizes whether or not a basketball shot outcome can be determined with a good regression model using data from the 2014-2015 NBA season.',
+      description: 'A data analysis machine learning experiment that theorizes whether or not a basketball shot outcome can be determined with a good regression model using shot logs from the 2014-2015 NBA season.',
       tags: ['Python', 'pandas', 'sklearn']
     }
   ],
@@ -65,10 +66,10 @@ const user = {
       description: 'Reviewed computer science and programming concepts with coding bootcamp students.'
     },
     {
-      company: 'T4 Tea For U',
+      company: 'SJLY, Inc.',
       title: 'Lead Quality Assurance Specialist',
       time: 'August 2019 - November 2021',
-      description: 'Inspected individual franchise stores for T4 and coordinated with the owners to ensure chains were running smoothly and correctly.'
+      description: 'Inspected individual franchise stores for T4 Tea For U and coordinated with the owners to ensure chains were running smoothly and correctly.'
     }
   ],
   contact: {
