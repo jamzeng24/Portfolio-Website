@@ -62,7 +62,7 @@ const user = {
     {
       company: 'Self-Employed',
       title: 'Computer Science Tutor',
-      time: 'November 2021 - March 2022',
+      time: 'November 2021 - Present',
       description: 'Reviewed computer science and programming concepts with coding bootcamp students.'
     },
     {
