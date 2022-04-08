@@ -19,8 +19,8 @@ const user = {
   email: 'jamzeng24@gmail.com',
   location: 'San Leandro, San Francisco Bay Area, California',
   background: [
-    'Hello! My name is James and I currently tutor computer science for anyone who is interested in all things programming, primarily those who are enrolled or interested in coding bootcamps such as ',
-    'I previously worked primarily in quality assurance for a company that manages a restaurant franchise with over 40 stores in California.',
+    'Hello! My name is James and I currently work in quality assurance for SJLY Inc., a company that manages T4 Tea For U, a restaurant franchise with over 40 stores in California. I do anything pertaining to the success of the franchise as a whole, starting from each individual store up to corporate operations.',
+    'I also tutor computer science part-time for anyone who is interested in all things programming, primarily those who are enrolled or interested in coding bootcamps such as ',
     'I started tutoring because it allows me to refamiliarize myself with concepts from previously graduating with a Bachelor of Science in computer science from ',
     ' in July 2019 and pursue my passion to work in the software industry.',
     'I enjoy building technology that directly benefits everyday life, but, in particular, to consume technical knowledge and personalize it. To make it accessible, inclusive, and compatible to everyone.'
@@ -62,13 +62,13 @@ const user = {
     {
       company: 'Self-Employed',
       title: 'Computer Science Tutor',
-      time: 'November 2021 - February 2022',
+      time: 'November 2021 - March 2022',
       description: 'Reviewed computer science and programming concepts with coding bootcamp students.'
     },
     {
       company: 'SJLY, Inc.',
       title: 'Lead Quality Assurance Specialist',
-      time: 'August 2019 - November 2021',
+      time: 'August 2019 - Present',
       description: 'Inspected individual franchise stores for T4 Tea For U and coordinated with the owners to ensure chains were running smoothly and correctly.'
     }
   ],
