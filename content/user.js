@@ -26,9 +26,9 @@ const user = {
     'I enjoy building technology that directly benefits everyday life, but, in particular, to consume technical knowledge and personalize it. To make it accessible, inclusive, and compatible to everyone.'
   ],
   skills: {
-    languages: ['Python', 'Ruby', 'Javascript (ES6+)', 'HTML', 'CSS/SCSS', 'C++', 'Java', 'SQL'],
+    languages: ['Python', 'Ruby', 'Javascript (ES6+)', 'HTML', 'CSS/SCSS', 'C++', 'Java', 'Kotlin', 'SQL'],
     frameworks: ['Node', 'Express', 'React', 'Next.js', 'Gatsby.js', 'Ruby on Rails', 'Bulma'],
-    tools: ['Postman', 'Visual Studio Code', 'Git (GitHub)', 'Unix shell (bash/zsh)', 'Docker', 'Kubernetes', 'MongoDB Atlas']
+    tools: ['Postman', 'Visual Studio Code', 'Git (GitHub)', 'Unix shell (bash/zsh)', 'Amazon Web Services', 'Docker', 'Kubernetes', 'MongoDB Atlas']
   },
   projects: [
     {
