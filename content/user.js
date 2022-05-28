@@ -19,7 +19,7 @@ const user = {
   email: 'jamzeng24@gmail.com',
   location: 'San Leandro, San Francisco Bay Area, California',
   background: [
-    'Hello! My name is James and I currently work in quality assurance for SJLY Inc., a company that manages T4 Tea For U, a restaurant franchise with over 40 stores in California. I do anything pertaining to the success of the franchise as a whole, starting from each individual store up to corporate operations.',
+    'Hello! My name is James and I currently work in quality assurance for SJLY Inc., a company that manages T4 Tea For U, a boba restaurant franchise with over 40 stores in California. I do anything pertaining to the success of the franchise as a whole, starting from each individual store up to corporate operations.',
     'I also tutor computer science part-time for anyone who is interested in all things programming, primarily those who are enrolled or interested in coding bootcamps such as ',
     'I started tutoring because it allows me to refamiliarize myself with concepts from previously graduating with a Bachelor of Science in computer science from ',
     ' in July 2019 and pursue my passion to work in the software industry.',
