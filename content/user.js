@@ -3,7 +3,7 @@ const user = {
   title: 'Software Engineer',
   github: 'https://github.com/jamzeng24',
   hero: 'A driven, detail-oriented Software Engineer, Computer Science Enthusiast and Tutor, or just a regular programmer with an interest for creating beautiful systems.',
-  now: ['Currently, I\'m focused on tutoring', 'students and finding a job!'],
+  now: ['Currently, I\'m focused on tutoring', 'students and finding software opportunities!'],
   odin: {
     name: 'The Odin Project',
     url: 'https://theodinproject.com'
@@ -42,7 +42,7 @@ const user = {
       name: 'Portfolio Website',
       url: 'https://portfolio-website-jamzeng24.vercel.app',
       github: 'https://github.com/jamzeng24/Portfolio-Website',
-      description: 'The first portfolio website that I built and designed using Next.js and Bulma. This project made me realize how important it is to determine the tech stack before getting started on a project, as Next.js proved to be excessive for just a static website.',
+      description: 'The first portfolio website that I built and designed using Next.js and Bulma. This project made me realize how important it is to determine the tech stack before getting started on a project, as Next.js felt excessive for just a static website.',
       tags: ['React', 'Next', 'HTML', 'CSS', 'Bulma']
     },
     {
